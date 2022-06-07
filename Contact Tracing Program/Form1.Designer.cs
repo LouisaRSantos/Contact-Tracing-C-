@@ -863,22 +863,24 @@
             // CTcheckboxYes1
             // 
             this.CTcheckboxYes1.AutoSize = true;
+            this.CTcheckboxYes1.BackColor = System.Drawing.Color.Transparent;
             this.CTcheckboxYes1.Location = new System.Drawing.Point(899, 156);
             this.CTcheckboxYes1.Name = "CTcheckboxYes1";
             this.CTcheckboxYes1.Size = new System.Drawing.Size(44, 17);
             this.CTcheckboxYes1.TabIndex = 70;
             this.CTcheckboxYes1.Text = "Yes";
-            this.CTcheckboxYes1.UseVisualStyleBackColor = true;
+            this.CTcheckboxYes1.UseVisualStyleBackColor = false;
             // 
             // CTcheckbocNo1
             // 
             this.CTcheckbocNo1.AutoSize = true;
+            this.CTcheckbocNo1.BackColor = System.Drawing.Color.Transparent;
             this.CTcheckbocNo1.Location = new System.Drawing.Point(949, 156);
             this.CTcheckbocNo1.Name = "CTcheckbocNo1";
             this.CTcheckbocNo1.Size = new System.Drawing.Size(40, 17);
             this.CTcheckbocNo1.TabIndex = 71;
             this.CTcheckbocNo1.Text = "No";
-            this.CTcheckbocNo1.UseVisualStyleBackColor = true;
+            this.CTcheckbocNo1.UseVisualStyleBackColor = false;
             // 
             // CTlabelQ2
             // 
@@ -894,22 +896,24 @@
             // CTcheckboxYes2
             // 
             this.CTcheckboxYes2.AutoSize = true;
+            this.CTcheckboxYes2.BackColor = System.Drawing.Color.Transparent;
             this.CTcheckboxYes2.Location = new System.Drawing.Point(899, 174);
             this.CTcheckboxYes2.Name = "CTcheckboxYes2";
             this.CTcheckboxYes2.Size = new System.Drawing.Size(44, 17);
             this.CTcheckboxYes2.TabIndex = 73;
             this.CTcheckboxYes2.Text = "Yes";
-            this.CTcheckboxYes2.UseVisualStyleBackColor = true;
+            this.CTcheckboxYes2.UseVisualStyleBackColor = false;
             // 
             // CTcheckboxNo2
             // 
             this.CTcheckboxNo2.AutoSize = true;
+            this.CTcheckboxNo2.BackColor = System.Drawing.Color.Transparent;
             this.CTcheckboxNo2.Location = new System.Drawing.Point(949, 175);
             this.CTcheckboxNo2.Name = "CTcheckboxNo2";
             this.CTcheckboxNo2.Size = new System.Drawing.Size(40, 17);
             this.CTcheckboxNo2.TabIndex = 74;
             this.CTcheckboxNo2.Text = "No";
-            this.CTcheckboxNo2.UseVisualStyleBackColor = true;
+            this.CTcheckboxNo2.UseVisualStyleBackColor = false;
             // 
             // CTlabelAbout4
             // 
@@ -936,22 +940,24 @@
             // CTcheckboxNo3
             // 
             this.CTcheckboxNo3.AutoSize = true;
+            this.CTcheckboxNo3.BackColor = System.Drawing.Color.Transparent;
             this.CTcheckboxNo3.Location = new System.Drawing.Point(1279, 153);
             this.CTcheckboxNo3.Name = "CTcheckboxNo3";
             this.CTcheckboxNo3.Size = new System.Drawing.Size(40, 17);
             this.CTcheckboxNo3.TabIndex = 78;
             this.CTcheckboxNo3.Text = "No";
-            this.CTcheckboxNo3.UseVisualStyleBackColor = true;
+            this.CTcheckboxNo3.UseVisualStyleBackColor = false;
             // 
             // CTcheckboxYes3
             // 
             this.CTcheckboxYes3.AutoSize = true;
+            this.CTcheckboxYes3.BackColor = System.Drawing.Color.Transparent;
             this.CTcheckboxYes3.Location = new System.Drawing.Point(1229, 153);
             this.CTcheckboxYes3.Name = "CTcheckboxYes3";
             this.CTcheckboxYes3.Size = new System.Drawing.Size(44, 17);
             this.CTcheckboxYes3.TabIndex = 77;
             this.CTcheckboxYes3.Text = "Yes";
-            this.CTcheckboxYes3.UseVisualStyleBackColor = true;
+            this.CTcheckboxYes3.UseVisualStyleBackColor = false;
             // 
             // CTlabelQ4
             // 
@@ -967,32 +973,35 @@
             // CTcheckboxNo4
             // 
             this.CTcheckboxNo4.AutoSize = true;
+            this.CTcheckboxNo4.BackColor = System.Drawing.Color.Transparent;
             this.CTcheckboxNo4.Location = new System.Drawing.Point(1279, 176);
             this.CTcheckboxNo4.Name = "CTcheckboxNo4";
             this.CTcheckboxNo4.Size = new System.Drawing.Size(40, 17);
             this.CTcheckboxNo4.TabIndex = 81;
             this.CTcheckboxNo4.Text = "No";
-            this.CTcheckboxNo4.UseVisualStyleBackColor = true;
+            this.CTcheckboxNo4.UseVisualStyleBackColor = false;
             // 
             // CTcheckboxYes4
             // 
             this.CTcheckboxYes4.AutoSize = true;
+            this.CTcheckboxYes4.BackColor = System.Drawing.Color.Transparent;
             this.CTcheckboxYes4.Location = new System.Drawing.Point(1229, 175);
             this.CTcheckboxYes4.Name = "CTcheckboxYes4";
             this.CTcheckboxYes4.Size = new System.Drawing.Size(44, 17);
             this.CTcheckboxYes4.TabIndex = 80;
             this.CTcheckboxYes4.Text = "Yes";
-            this.CTcheckboxYes4.UseVisualStyleBackColor = true;
+            this.CTcheckboxYes4.UseVisualStyleBackColor = false;
             // 
             // CTcheckboxIDK1
             // 
             this.CTcheckboxIDK1.AutoSize = true;
+            this.CTcheckboxIDK1.BackColor = System.Drawing.Color.Transparent;
             this.CTcheckboxIDK1.Location = new System.Drawing.Point(1229, 198);
             this.CTcheckboxIDK1.Name = "CTcheckboxIDK1";
             this.CTcheckboxIDK1.Size = new System.Drawing.Size(72, 17);
             this.CTcheckboxIDK1.TabIndex = 82;
             this.CTcheckboxIDK1.Text = "Unknown";
-            this.CTcheckboxIDK1.UseVisualStyleBackColor = true;
+            this.CTcheckboxIDK1.UseVisualStyleBackColor = false;
             // 
             // CTlabelAbout5
             // 
