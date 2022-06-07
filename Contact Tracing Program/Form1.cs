@@ -135,6 +135,13 @@ namespace Contact_Tracing_Program
                     File.AppendAllText(CTsaveFD.FileName, "\t" + CTlabelTime6.Text + TxtBoxTime6.Text + "\r\n");
                     File.AppendAllText(CTsaveFD.FileName, "\t" + CTlabelLoc6.Text + TxtBoxLoc6.Text + "\r\n");
 
+                    //About5.7
+                    File.AppendAllText(CTsaveFD.FileName, "7. " + "\r\n");
+                    File.AppendAllText(CTsaveFD.FileName, "\t" + CTlabelName7.Text + TxtBoxName7.Text + "\r\n");
+                    File.AppendAllText(CTsaveFD.FileName, "\t" + CTlabelDate7.Text + TxtBoxDate7.Text + "\r\n");
+                    File.AppendAllText(CTsaveFD.FileName, "\t" + CTlabelTime7.Text + TxtBoxTime7.Text + "\r\n");
+                    File.AppendAllText(CTsaveFD.FileName, "\t" + CTlabelLoc7.Text + TxtBoxLoc7.Text + "\r\n");
+
 
                     MessageBox.Show("File Saved");
                 }
