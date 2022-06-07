@@ -107,6 +107,27 @@ namespace Contact_Tracing_Program
                     File.AppendAllText(CTsaveFD.FileName, "\t" + CTlabelTime2.Text + TxtBoxTime2.Text + "\r\n");
                     File.AppendAllText(CTsaveFD.FileName, "\t" + CTlabelLoc2.Text + TxtBoxLoc2.Text + "\r\n");
 
+                    //About5.3
+                    File.AppendAllText(CTsaveFD.FileName, "3. " + "\r\n");
+                    File.AppendAllText(CTsaveFD.FileName, "\t" + CTlabelName3.Text + TxtBoxName3.Text + "\r\n");
+                    File.AppendAllText(CTsaveFD.FileName, "\t" + CTlabelDate3.Text + TxtBoxDate3.Text + "\r\n");
+                    File.AppendAllText(CTsaveFD.FileName, "\t" + CTlabelTime3.Text + TxtBoxTime3.Text + "\r\n");
+                    File.AppendAllText(CTsaveFD.FileName, "\t" + CTlabelLoc3.Text + TxtBoxLoc3.Text + "\r\n");
+
+                    //About5.4
+                    File.AppendAllText(CTsaveFD.FileName, "4. " + "\r\n");
+                    File.AppendAllText(CTsaveFD.FileName, "\t" + CTlabelName4.Text + TxtBoxName4.Text + "\r\n");
+                    File.AppendAllText(CTsaveFD.FileName, "\t" + CTlabelDate4.Text + TxtBoxDate4.Text + "\r\n");
+                    File.AppendAllText(CTsaveFD.FileName, "\t" + CTlabelTime4.Text + TxtBoxTime4.Text + "\r\n");
+                    File.AppendAllText(CTsaveFD.FileName, "\t" + CTlabelLoc4.Text + TxtBoxLoc4.Text + "\r\n");
+
+                    //About5.5
+                    File.AppendAllText(CTsaveFD.FileName, "5. " + "\r\n");
+                    File.AppendAllText(CTsaveFD.FileName, "\t" + CTlabelName5.Text + TxtBoxName5.Text + "\r\n");
+                    File.AppendAllText(CTsaveFD.FileName, "\t" + CTlabelDate5.Text + TxtBoxDate5.Text + "\r\n");
+                    File.AppendAllText(CTsaveFD.FileName, "\t" + CTlabelTime5.Text + TxtBoxTime5.Text + "\r\n");
+                    File.AppendAllText(CTsaveFD.FileName, "\t" + CTlabelLoc5.Text + TxtBoxLoc5.Text + "\r\n");
+
                     MessageBox.Show("File Saved");
                 }
                 catch 
