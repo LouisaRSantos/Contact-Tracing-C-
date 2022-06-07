@@ -151,6 +151,10 @@ namespace Contact_Tracing_Program
                     MessageBox.Show("Incomplete please answer every question.");
                 }
             }
+            else if (CTsaveFD.ShowDialog() == DialogResult.Cancel)
+            {
+                MessageBox.Show("The file is not saved");
+            }
         }
 
         private void TxtBoxFN_TextChanged(object sender, EventArgs e)
@@ -220,6 +224,7 @@ namespace Contact_Tracing_Program
             CTcheckboxNo3.Checked = false;
             CTcheckboxNo4.Checked = false;
             CTcheckboxIDK1.Checked = false;
+
         }
     }
 }
