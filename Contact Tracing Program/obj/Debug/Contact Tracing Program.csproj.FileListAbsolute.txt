@@ -1,0 +1,18 @@
+c:\users\santos\documents\visual studio 2013\Projects\Contact Tracing Program\Contact Tracing Program\bin\Debug\Contact Tracing Program.exe.config
+c:\users\santos\documents\visual studio 2013\Projects\Contact Tracing Program\Contact Tracing Program\bin\Debug\Contact Tracing Program.exe
+c:\users\santos\documents\visual studio 2013\Projects\Contact Tracing Program\Contact Tracing Program\bin\Debug\Contact Tracing Program.pdb
+c:\users\santos\documents\visual studio 2013\Projects\Contact Tracing Program\Contact Tracing Program\obj\Debug\Contact Tracing Program.csprojResolveAssemblyReference.cache
+c:\users\santos\documents\visual studio 2013\Projects\Contact Tracing Program\Contact Tracing Program\obj\Debug\Contact_Tracing_Program.Properties.Resources.resources
+c:\users\santos\documents\visual studio 2013\Projects\Contact Tracing Program\Contact Tracing Program\obj\Debug\Contact Tracing Program.csproj.GenerateResource.Cache
+c:\users\santos\documents\visual studio 2013\Projects\Contact Tracing Program\Contact Tracing Program\obj\Debug\Contact Tracing Program.exe
+c:\users\santos\documents\visual studio 2013\Projects\Contact Tracing Program\Contact Tracing Program\obj\Debug\Contact Tracing Program.pdb
+C:\Users\Santos\documents\visual studio 2013\Projects\Contact Tracing Program\Contact Tracing Program\obj\Debug\Contact_Tracing_Program.TxtBoxTime7.resources
+C:\Users\Santos\Downloads\Contact-Tracing-C--master\Contact Tracing Program\bin\Debug\Contact Tracing Program.exe.config
+C:\Users\Santos\Downloads\Contact-Tracing-C--master\Contact Tracing Program\obj\Debug\Contact Tracing Program.exe
+C:\Users\Santos\Downloads\Contact-Tracing-C--master\Contact Tracing Program\obj\Debug\Contact Tracing Program.pdb
+C:\Users\Santos\Downloads\Contact-Tracing-C--master\Contact Tracing Program\bin\Debug\Contact Tracing Program.exe
+C:\Users\Santos\Downloads\Contact-Tracing-C--master\Contact Tracing Program\bin\Debug\Contact Tracing Program.pdb
+C:\Users\Santos\Downloads\Contact-Tracing-C--master\Contact Tracing Program\obj\Debug\Contact Tracing Program.csprojResolveAssemblyReference.cache
+C:\Users\Santos\Downloads\Contact-Tracing-C--master\Contact Tracing Program\obj\Debug\Contact_Tracing_Program.Properties.Resources.resources
+C:\Users\Santos\Downloads\Contact-Tracing-C--master\Contact Tracing Program\obj\Debug\Contact Tracing Program.csproj.GenerateResource.Cache
+C:\Users\Santos\Downloads\Contact-Tracing-C--master\Contact Tracing Program\obj\Debug\Contact_Tracing_Program.ContactTracingProg.resources
