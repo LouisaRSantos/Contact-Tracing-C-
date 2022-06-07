@@ -1015,7 +1015,8 @@
             this.CTlabelAbout6.Size = new System.Drawing.Size(665, 34);
             this.CTlabelAbout6.TabIndex = 84;
             this.CTlabelAbout6.Text = "You must record the asked information regarding of every person you have conatct " +
-    "with during this week for the contact \r\ntracing list.";
+    "with during this week for the contact \r\ntracing list. Leave the protion blank if" +
+    " there is no reponse/answer.";
             // 
             // CTlabelName1
             // 
@@ -1643,6 +1644,7 @@
             this.CTbtnClear.TabIndex = 153;
             this.CTbtnClear.Text = "Clear";
             this.CTbtnClear.UseVisualStyleBackColor = true;
+            this.CTbtnClear.Click += new System.EventHandler(this.CTbtnClear_Click);
             // 
             // ContactTracingProg
             // 

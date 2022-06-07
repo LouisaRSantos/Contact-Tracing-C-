@@ -157,5 +157,56 @@ namespace Contact_Tracing_Program
         {
 
         }
+
+        private void CTbtnClear_Click(object sender, EventArgs e)
+        {
+            //TextBox
+            TxtBoxFN.Text = "";
+            TxtBoxMN.Text = "";
+            TxtBoxSN.Text = "";
+            TxtBoxSuffix.Text = "";
+            TxtBoxAge.Text = "";
+            TxtBoxPN.Text = "";
+            TxtBoxEmail.Text = "";
+            TxtBoxBP.Text = "";
+            TxtBoxCA.Text = "";
+            TxtBoxMotherFN.Text = "";
+            TxtBoxMotherMN.Text = "";
+            TxtBoxMotherSN.Text = "";
+            TxtBoxMotherSuffix.Text = "";
+            TxtBoxMotherPN.Text = "";
+            TxtBoxMotherCA.Text = "";
+            TxtBoxFatherFN.Text = "";
+            TxtBoxFatherMN.Text = "";
+            TxtBoxFatherSN.Text = "";
+            TxtBoxFatherSuffix.Text = "";
+            TxtBoxFatherPN.Text = "";
+            TxtBoxFatherCA.Text = "";
+            TxtBoxName1.Text = "";
+            TxtBoxName2.Text = "";
+            TxtBoxName3.Text = "";
+            TxtBoxName4.Text = "";
+            TxtBoxName5.Text = "";
+            TxtBoxName6.Text = "";
+            TxtBoxName7.Text = "";
+            TxtBoxDate1.Text = "";
+            TxtBoxDate2.Text = "";
+            TxtBoxDate3.Text = "";
+            TxtBoxDate4.Text = "";
+            TxtBoxDate6.Text = "";
+            TxtBoxDate7.Text = "";
+            TxtBoxTime1.Text = "";
+
+            //CheckBox
+            CTcheckboxYes1.Checked = false;
+            CTcheckboxYes2.Checked = false;
+            CTcheckboxYes3.Checked = false;
+            CTcheckboxYes4.Checked = false;
+            CTcheckbocNo1.Checked = false;
+            CTcheckboxNo2.Checked = false;
+            CTcheckboxNo3.Checked = false;
+            CTcheckboxNo4.Checked = false;
+            CTcheckboxIDK1.Checked = false;
+        }
     }
 }
