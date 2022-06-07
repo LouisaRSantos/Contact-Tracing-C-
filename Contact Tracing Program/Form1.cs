@@ -196,7 +196,20 @@ namespace Contact_Tracing_Program
             TxtBoxDate6.Text = "";
             TxtBoxDate7.Text = "";
             TxtBoxTime1.Text = "";
-
+            TxtBoxTime2.Text = "";
+            TxtBoxTime3.Text = "";
+            TxtBoxTime4.Text = "";
+            TxtBoxTime5.Text = "";
+            TxtBoxTime6.Text = "";
+            TxtBoxTime7.Text = "";
+            TxtBoxLoc1.Text = "";
+            TxtBoxLoc2.Text = "";
+            TxtBoxLoc3.Text = "";
+            TxtBoxLoc4.Text = "";
+            TxtBoxLoc5.Text = "";
+            TxtBoxLoc6.Text = "";
+            TxtBoxLoc7.Text = "";
+        
             //CheckBox
             CTcheckboxYes1.Checked = false;
             CTcheckboxYes2.Checked = false;
