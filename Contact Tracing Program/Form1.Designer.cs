@@ -102,7 +102,6 @@
             this.CTlabelQ4 = new System.Windows.Forms.Label();
             this.CTcheckboxNo4 = new System.Windows.Forms.CheckBox();
             this.CTcheckboxYes4 = new System.Windows.Forms.CheckBox();
-            this.CTcheckboxIDK1 = new System.Windows.Forms.CheckBox();
             this.CTlabelAbout5 = new System.Windows.Forms.Label();
             this.CTlabelAbout6 = new System.Windows.Forms.Label();
             this.CTlabelName1 = new System.Windows.Forms.Label();
@@ -165,14 +164,24 @@
             this.CTlabelGuide2 = new System.Windows.Forms.Label();
             this.CTlabelGuide3 = new System.Windows.Forms.Label();
             this.CTlabelGuide4 = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
             this.CTlabelAbout7 = new System.Windows.Forms.Label();
             this.CTlabelAbout8 = new System.Windows.Forms.Label();
+            this.CTlabelAbout9 = new System.Windows.Forms.Label();
             this.CTasterterisk1 = new System.Windows.Forms.Label();
             this.CTasterterisk2 = new System.Windows.Forms.Label();
             this.CTbtnSave = new System.Windows.Forms.Button();
             this.CTbtnClear = new System.Windows.Forms.Button();
             this.CTsaveFD = new System.Windows.Forms.SaveFileDialog();
+            this.CTcheckboxIDK1 = new System.Windows.Forms.CheckBox();
+            this.CTasterterisk3 = new System.Windows.Forms.Label();
+            this.CTasterterisk4 = new System.Windows.Forms.Label();
+            this.CTasterterisk5 = new System.Windows.Forms.Label();
+            this.CTasterterisk6 = new System.Windows.Forms.Label();
+            this.CTasterterisk7 = new System.Windows.Forms.Label();
+            this.CTasterterisk8 = new System.Windows.Forms.Label();
+            this.CTasterterisk9 = new System.Windows.Forms.Label();
+            this.CTasterterisk10 = new System.Windows.Forms.Label();
+            this.CTasterterisk11 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.CTpicbox1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -492,7 +501,7 @@
             this.CTlabelPNumber.AutoSize = true;
             this.CTlabelPNumber.BackColor = System.Drawing.Color.Transparent;
             this.CTlabelPNumber.Font = new System.Drawing.Font("Franklin Gothic Book", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.CTlabelPNumber.Location = new System.Drawing.Point(204, 272);
+            this.CTlabelPNumber.Location = new System.Drawing.Point(209, 272);
             this.CTlabelPNumber.Name = "CTlabelPNumber";
             this.CTlabelPNumber.Size = new System.Drawing.Size(107, 17);
             this.CTlabelPNumber.TabIndex = 21;
@@ -920,7 +929,7 @@
             this.CTlabelAbout4.AutoSize = true;
             this.CTlabelAbout4.BackColor = System.Drawing.Color.Transparent;
             this.CTlabelAbout4.Font = new System.Drawing.Font("MS Reference Sans Serif", 8.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.CTlabelAbout4.Location = new System.Drawing.Point(995, 136);
+            this.CTlabelAbout4.Location = new System.Drawing.Point(995, 130);
             this.CTlabelAbout4.Name = "CTlabelAbout4";
             this.CTlabelAbout4.Size = new System.Drawing.Size(104, 15);
             this.CTlabelAbout4.TabIndex = 75;
@@ -931,7 +940,7 @@
             this.CTlabelQ3.AutoSize = true;
             this.CTlabelQ3.BackColor = System.Drawing.Color.Transparent;
             this.CTlabelQ3.Font = new System.Drawing.Font("Franklin Gothic Book", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.CTlabelQ3.Location = new System.Drawing.Point(995, 158);
+            this.CTlabelQ3.Location = new System.Drawing.Point(995, 155);
             this.CTlabelQ3.Name = "CTlabelQ3";
             this.CTlabelQ3.Size = new System.Drawing.Size(185, 17);
             this.CTlabelQ3.TabIndex = 76;
@@ -941,7 +950,7 @@
             // 
             this.CTcheckboxNo3.AutoSize = true;
             this.CTcheckboxNo3.BackColor = System.Drawing.Color.Transparent;
-            this.CTcheckboxNo3.Location = new System.Drawing.Point(1279, 153);
+            this.CTcheckboxNo3.Location = new System.Drawing.Point(1279, 156);
             this.CTcheckboxNo3.Name = "CTcheckboxNo3";
             this.CTcheckboxNo3.Size = new System.Drawing.Size(40, 17);
             this.CTcheckboxNo3.TabIndex = 78;
@@ -952,7 +961,7 @@
             // 
             this.CTcheckboxYes3.AutoSize = true;
             this.CTcheckboxYes3.BackColor = System.Drawing.Color.Transparent;
-            this.CTcheckboxYes3.Location = new System.Drawing.Point(1229, 153);
+            this.CTcheckboxYes3.Location = new System.Drawing.Point(1229, 156);
             this.CTcheckboxYes3.Name = "CTcheckboxYes3";
             this.CTcheckboxYes3.Size = new System.Drawing.Size(44, 17);
             this.CTcheckboxYes3.TabIndex = 77;
@@ -991,17 +1000,6 @@
             this.CTcheckboxYes4.TabIndex = 80;
             this.CTcheckboxYes4.Text = "Yes";
             this.CTcheckboxYes4.UseVisualStyleBackColor = false;
-            // 
-            // CTcheckboxIDK1
-            // 
-            this.CTcheckboxIDK1.AutoSize = true;
-            this.CTcheckboxIDK1.BackColor = System.Drawing.Color.Transparent;
-            this.CTcheckboxIDK1.Location = new System.Drawing.Point(1229, 198);
-            this.CTcheckboxIDK1.Name = "CTcheckboxIDK1";
-            this.CTcheckboxIDK1.Size = new System.Drawing.Size(72, 17);
-            this.CTcheckboxIDK1.TabIndex = 82;
-            this.CTcheckboxIDK1.Text = "Unknown";
-            this.CTcheckboxIDK1.UseVisualStyleBackColor = false;
             // 
             // CTlabelAbout5
             // 
@@ -1576,40 +1574,40 @@
             this.CTlabelGuide4.TabIndex = 144;
             this.CTlabelGuide4.Text = "Please state the full location.";
             // 
-            // label2
-            // 
-            this.label2.AutoSize = true;
-            this.label2.BackColor = System.Drawing.Color.Transparent;
-            this.label2.Font = new System.Drawing.Font("Franklin Gothic Book", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(664, 546);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(176, 24);
-            this.label2.TabIndex = 145;
-            this.label2.Text = "DATA PRIVACY ACT";
-            // 
             // CTlabelAbout7
             // 
             this.CTlabelAbout7.AutoSize = true;
             this.CTlabelAbout7.BackColor = System.Drawing.Color.Transparent;
-            this.CTlabelAbout7.Font = new System.Drawing.Font("Franklin Gothic Book", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.CTlabelAbout7.ImageAlign = System.Drawing.ContentAlignment.TopLeft;
-            this.CTlabelAbout7.Location = new System.Drawing.Point(666, 573);
+            this.CTlabelAbout7.Font = new System.Drawing.Font("Franklin Gothic Book", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.CTlabelAbout7.Location = new System.Drawing.Point(664, 546);
             this.CTlabelAbout7.Name = "CTlabelAbout7";
-            this.CTlabelAbout7.Size = new System.Drawing.Size(664, 51);
-            this.CTlabelAbout7.TabIndex = 146;
-            this.CTlabelAbout7.Text = resources.GetString("CTlabelAbout7.Text");
-            this.CTlabelAbout7.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.CTlabelAbout7.Size = new System.Drawing.Size(176, 24);
+            this.CTlabelAbout7.TabIndex = 145;
+            this.CTlabelAbout7.Text = "DATA PRIVACY ACT";
             // 
             // CTlabelAbout8
             // 
             this.CTlabelAbout8.AutoSize = true;
             this.CTlabelAbout8.BackColor = System.Drawing.Color.Transparent;
-            this.CTlabelAbout8.Font = new System.Drawing.Font("Franklin Gothic Book", 9F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.CTlabelAbout8.Location = new System.Drawing.Point(678, 668);
+            this.CTlabelAbout8.Font = new System.Drawing.Font("Franklin Gothic Book", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.CTlabelAbout8.ImageAlign = System.Drawing.ContentAlignment.TopLeft;
+            this.CTlabelAbout8.Location = new System.Drawing.Point(666, 573);
             this.CTlabelAbout8.Name = "CTlabelAbout8";
-            this.CTlabelAbout8.Size = new System.Drawing.Size(408, 16);
-            this.CTlabelAbout8.TabIndex = 147;
-            this.CTlabelAbout8.Text = "After completing the form, please select the button \"Save\" to download the file";
+            this.CTlabelAbout8.Size = new System.Drawing.Size(664, 51);
+            this.CTlabelAbout8.TabIndex = 146;
+            this.CTlabelAbout8.Text = resources.GetString("CTlabelAbout8.Text");
+            this.CTlabelAbout8.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            // 
+            // CTlabelAbout9
+            // 
+            this.CTlabelAbout9.AutoSize = true;
+            this.CTlabelAbout9.BackColor = System.Drawing.Color.Transparent;
+            this.CTlabelAbout9.Font = new System.Drawing.Font("Franklin Gothic Book", 9F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.CTlabelAbout9.Location = new System.Drawing.Point(678, 668);
+            this.CTlabelAbout9.Name = "CTlabelAbout9";
+            this.CTlabelAbout9.Size = new System.Drawing.Size(408, 16);
+            this.CTlabelAbout9.TabIndex = 147;
+            this.CTlabelAbout9.Text = "After completing the form, please select the button \"Save\" to download the file";
             // 
             // CTasterterisk1
             // 
@@ -1655,19 +1653,146 @@
             this.CTbtnClear.UseVisualStyleBackColor = true;
             this.CTbtnClear.Click += new System.EventHandler(this.CTbtnClear_Click);
             // 
+            // CTcheckboxIDK1
+            // 
+            this.CTcheckboxIDK1.AutoSize = true;
+            this.CTcheckboxIDK1.BackColor = System.Drawing.Color.Transparent;
+            this.CTcheckboxIDK1.Location = new System.Drawing.Point(1229, 198);
+            this.CTcheckboxIDK1.Name = "CTcheckboxIDK1";
+            this.CTcheckboxIDK1.Size = new System.Drawing.Size(72, 17);
+            this.CTcheckboxIDK1.TabIndex = 82;
+            this.CTcheckboxIDK1.Text = "Unknown";
+            this.CTcheckboxIDK1.UseVisualStyleBackColor = false;
+            // 
+            // CTasterterisk3
+            // 
+            this.CTasterterisk3.AutoSize = true;
+            this.CTasterterisk3.BackColor = System.Drawing.Color.Transparent;
+            this.CTasterterisk3.Font = new System.Drawing.Font("Franklin Gothic Book", 9F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.CTasterterisk3.ForeColor = System.Drawing.Color.Red;
+            this.CTasterterisk3.Location = new System.Drawing.Point(68, 159);
+            this.CTasterterisk3.Name = "CTasterterisk3";
+            this.CTasterterisk3.Size = new System.Drawing.Size(15, 16);
+            this.CTasterterisk3.TabIndex = 154;
+            this.CTasterterisk3.Text = "*";
+            // 
+            // CTasterterisk4
+            // 
+            this.CTasterterisk4.AutoSize = true;
+            this.CTasterterisk4.BackColor = System.Drawing.Color.Transparent;
+            this.CTasterterisk4.Font = new System.Drawing.Font("Franklin Gothic Book", 9F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.CTasterterisk4.ForeColor = System.Drawing.Color.Red;
+            this.CTasterterisk4.Location = new System.Drawing.Point(80, 217);
+            this.CTasterterisk4.Name = "CTasterterisk4";
+            this.CTasterterisk4.Size = new System.Drawing.Size(15, 16);
+            this.CTasterterisk4.TabIndex = 155;
+            this.CTasterterisk4.Text = "*";
+            // 
+            // CTasterterisk5
+            // 
+            this.CTasterterisk5.AutoSize = true;
+            this.CTasterterisk5.BackColor = System.Drawing.Color.Transparent;
+            this.CTasterterisk5.Font = new System.Drawing.Font("Franklin Gothic Book", 9F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.CTasterterisk5.ForeColor = System.Drawing.Color.Red;
+            this.CTasterterisk5.Location = new System.Drawing.Point(188, 218);
+            this.CTasterterisk5.Name = "CTasterterisk5";
+            this.CTasterterisk5.Size = new System.Drawing.Size(15, 16);
+            this.CTasterterisk5.TabIndex = 156;
+            this.CTasterterisk5.Text = "*";
+            // 
+            // CTasterterisk6
+            // 
+            this.CTasterterisk6.AutoSize = true;
+            this.CTasterterisk6.BackColor = System.Drawing.Color.Transparent;
+            this.CTasterterisk6.Font = new System.Drawing.Font("Franklin Gothic Book", 9F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.CTasterterisk6.ForeColor = System.Drawing.Color.Red;
+            this.CTasterterisk6.Location = new System.Drawing.Point(80, 273);
+            this.CTasterterisk6.Name = "CTasterterisk6";
+            this.CTasterterisk6.Size = new System.Drawing.Size(15, 16);
+            this.CTasterterisk6.TabIndex = 157;
+            this.CTasterterisk6.Text = "*";
+            // 
+            // CTasterterisk7
+            // 
+            this.CTasterterisk7.AutoSize = true;
+            this.CTasterterisk7.BackColor = System.Drawing.Color.Transparent;
+            this.CTasterterisk7.Font = new System.Drawing.Font("Franklin Gothic Book", 9F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.CTasterterisk7.ForeColor = System.Drawing.Color.Red;
+            this.CTasterterisk7.Location = new System.Drawing.Point(198, 273);
+            this.CTasterterisk7.Name = "CTasterterisk7";
+            this.CTasterterisk7.Size = new System.Drawing.Size(15, 16);
+            this.CTasterterisk7.TabIndex = 158;
+            this.CTasterterisk7.Text = "*";
+            // 
+            // CTasterterisk8
+            // 
+            this.CTasterterisk8.AutoSize = true;
+            this.CTasterterisk8.BackColor = System.Drawing.Color.Transparent;
+            this.CTasterterisk8.Font = new System.Drawing.Font("Franklin Gothic Book", 9F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.CTasterterisk8.ForeColor = System.Drawing.Color.Red;
+            this.CTasterterisk8.Location = new System.Drawing.Point(35, 320);
+            this.CTasterterisk8.Name = "CTasterterisk8";
+            this.CTasterterisk8.Size = new System.Drawing.Size(15, 16);
+            this.CTasterterisk8.TabIndex = 159;
+            this.CTasterterisk8.Text = "*";
+            // 
+            // CTasterterisk9
+            // 
+            this.CTasterterisk9.AutoSize = true;
+            this.CTasterterisk9.BackColor = System.Drawing.Color.Transparent;
+            this.CTasterterisk9.Font = new System.Drawing.Font("Franklin Gothic Book", 9F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.CTasterterisk9.ForeColor = System.Drawing.Color.Red;
+            this.CTasterterisk9.Location = new System.Drawing.Point(1, 357);
+            this.CTasterterisk9.Name = "CTasterterisk9";
+            this.CTasterterisk9.Size = new System.Drawing.Size(15, 16);
+            this.CTasterterisk9.TabIndex = 160;
+            this.CTasterterisk9.Text = "*";
+            // 
+            // CTasterterisk10
+            // 
+            this.CTasterterisk10.AutoSize = true;
+            this.CTasterterisk10.BackColor = System.Drawing.Color.Transparent;
+            this.CTasterterisk10.Font = new System.Drawing.Font("Franklin Gothic Book", 9F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.CTasterterisk10.ForeColor = System.Drawing.Color.Red;
+            this.CTasterterisk10.Location = new System.Drawing.Point(656, 131);
+            this.CTasterterisk10.Name = "CTasterterisk10";
+            this.CTasterterisk10.Size = new System.Drawing.Size(15, 16);
+            this.CTasterterisk10.TabIndex = 161;
+            this.CTasterterisk10.Text = "*";
+            // 
+            // CTasterterisk11
+            // 
+            this.CTasterterisk11.AutoSize = true;
+            this.CTasterterisk11.BackColor = System.Drawing.Color.Transparent;
+            this.CTasterterisk11.Font = new System.Drawing.Font("Franklin Gothic Book", 9F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.CTasterterisk11.ForeColor = System.Drawing.Color.Red;
+            this.CTasterterisk11.Location = new System.Drawing.Point(985, 131);
+            this.CTasterterisk11.Name = "CTasterterisk11";
+            this.CTasterterisk11.Size = new System.Drawing.Size(15, 16);
+            this.CTasterterisk11.TabIndex = 162;
+            this.CTasterterisk11.Text = "*";
+            // 
             // ContactTracingProg
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.ClientSize = new System.Drawing.Size(1354, 733);
+            this.Controls.Add(this.CTasterterisk11);
+            this.Controls.Add(this.CTasterterisk10);
+            this.Controls.Add(this.CTasterterisk9);
+            this.Controls.Add(this.CTasterterisk8);
+            this.Controls.Add(this.CTasterterisk7);
+            this.Controls.Add(this.CTasterterisk6);
+            this.Controls.Add(this.CTasterterisk5);
+            this.Controls.Add(this.CTasterterisk4);
+            this.Controls.Add(this.CTasterterisk3);
             this.Controls.Add(this.CTbtnClear);
             this.Controls.Add(this.CTbtnSave);
             this.Controls.Add(this.CTasterterisk2);
             this.Controls.Add(this.CTasterterisk1);
+            this.Controls.Add(this.CTlabelAbout9);
             this.Controls.Add(this.CTlabelAbout8);
             this.Controls.Add(this.CTlabelAbout7);
-            this.Controls.Add(this.label2);
             this.Controls.Add(this.CTlabelGuide4);
             this.Controls.Add(this.CTlabelGuide3);
             this.Controls.Add(this.CTlabelGuide2);
@@ -1890,7 +2015,6 @@
         private System.Windows.Forms.Label CTlabelQ4;
         private System.Windows.Forms.CheckBox CTcheckboxNo4;
         private System.Windows.Forms.CheckBox CTcheckboxYes4;
-        private System.Windows.Forms.CheckBox CTcheckboxIDK1;
         private System.Windows.Forms.Label CTlabelAbout5;
         private System.Windows.Forms.Label CTlabelAbout6;
         private System.Windows.Forms.Label CTlabelName1;
@@ -1953,14 +2077,24 @@
         private System.Windows.Forms.Label CTlabelGuide2;
         private System.Windows.Forms.Label CTlabelGuide3;
         private System.Windows.Forms.Label CTlabelGuide4;
-        private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label CTlabelAbout7;
         private System.Windows.Forms.Label CTlabelAbout8;
+        private System.Windows.Forms.Label CTlabelAbout9;
         private System.Windows.Forms.Label CTasterterisk1;
         private System.Windows.Forms.Label CTasterterisk2;
         private System.Windows.Forms.Button CTbtnSave;
         private System.Windows.Forms.Button CTbtnClear;
         private System.Windows.Forms.SaveFileDialog CTsaveFD;
+        private System.Windows.Forms.CheckBox CTcheckboxIDK1;
+        private System.Windows.Forms.Label CTasterterisk3;
+        private System.Windows.Forms.Label CTasterterisk4;
+        private System.Windows.Forms.Label CTasterterisk5;
+        private System.Windows.Forms.Label CTasterterisk6;
+        private System.Windows.Forms.Label CTasterterisk7;
+        private System.Windows.Forms.Label CTasterterisk8;
+        private System.Windows.Forms.Label CTasterterisk9;
+        private System.Windows.Forms.Label CTasterterisk10;
+        private System.Windows.Forms.Label CTasterterisk11;
 
     }
 }
